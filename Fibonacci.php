@@ -14,9 +14,9 @@ function Fibonacci($number){
                 Fibonacci($number-2));
 }
   
-$number = 10;
-for ($counter = 0; $counter < $number; $counter++){  
-    echo Fibonacci($counter),' ';
+      $number = 10;
+      for ($counter = 0; $counter < $number; $counter++){  
+          echo Fibonacci($counter),' ';
 }
  
 ?>
